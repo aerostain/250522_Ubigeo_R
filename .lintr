@@ -1,0 +1,4 @@
+linters: linters_with_defaults(
+  assignment_linter(allow_pipe_assign = TRUE),
+  object_usage_linter = NULL
+  )
